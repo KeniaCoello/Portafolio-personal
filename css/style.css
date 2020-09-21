@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200;400&display=swap');
+
+h1{
+font-family: 'Anton', sans-serif;
+}
+
+h2,h3,p{
+font-family: 'Anton', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+header{
+	background-color: #161616;
+	font-weight: 600;
+	text-align: center;
+}
+
+#hero{
+	background-image:url("../img/ESCENA. arte.jpg");
+	opacity: 0.9;
+	text-align: center;
+	color: #fff;
+	padding: 2%;
+}
+
+
+
+#info{
+	background-color: #161616;
+	padding: 5%;
+	font-size: 20px;
+	color: #fff;
+	text-align: right;
+	
+}
+
+
+p{
+	font-weight: 200;
+}
+.title{
+	color: #D30000;
+	font-size: 50px !important;
+	font-weight: 400;
+	padding-top: 8%;
+	
+}
+#info h2,h3{
+	margin-right: -10%;
+}
+
+#info img, #info-aboutme img{
+	box-shadow: -30px -30px 0px 2px #CD0306;
+}
+.btn-primary{
+	color: #D30000;
+	background-color: transparent;
+	border-color: #D30000;
+	border-width: medium;
+	padding: 10px 40px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border-radius: 10px;
+
+}
+.btn-primary:hover{
+	background-color: #D30000;
+	border-color: #D30000;
+}
+
+.social a{
+	color: #fff;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+	margin-left: -120%;
+}
+
+footer{
+	padding: 3% 0 0;
+	font-weight: 200;
+	font-size: 20px;
+	color: #fff;
+	background-color: #161616;
+	border-top: 1px solid #ddd;
+}
+
+#contact-foot h3{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	color: #D30000;
+	
+}
+
+footer #copy{
+	color: #D30000;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 20px;
+}
+
+footer #info a{
+	color: #303132;
+}
+
+
+ #info-aboutme{
+	background-color: #161616;
+	padding: 6%;
+	font-size: 20px;
+	color: #fff;
+	text-align: left;
+	border-top: 1px solid #ddd;
+}
+
+#info-aboutme h2{
+	color: #D30000;
+	font-size: 50px !important;
+	font-weight: 400;
+	margin-top: -6%;
+}
+
+#skills{
+	text-align: center;
+}
+
+#skills h2{
+	margin-top: -5%;
+	margin-bottom: 5%;
+	font-size: 70px !important;
+}
+
+#skills h3{
+	color: #D30000;
+	text-transform:  uppercase;
+	margin-left: -10%;
+	margin: 5% 0;
+}
+
+#skills img{
+	margin-bottom: 15px;
+}
+
+#contact-form{
+	background-color: #161616;
+	padding: 5% 0 5% 6%;
+	border-top: 1px solid #ddd;
+	
+}
+
+#contact-form h2{
+	color: #D30000;
+	font-size: 60px;
+	margin: 8% 0;
+}
+
+#proyects{
+	background-color: #161616;
+	padding-bottom: 5%;
+}
+#proyects h2{
+	font-size: 25px;
+	margin-bottom: 5%
+	
+}
+
+#proyects .second{
+	margin-top: 3%;
+}
+.producto{
+	position: relative;
+}
+
+.producto-nombre{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: #D30000;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.producto:hover .producto-nombre{
+	opacity: 0.5;
+	transition: all 0.5s ease-in-out;
+}
+
+.producto a{
+	color: white;
+}
+
+.producto a:hover{
+	text-decoration: none;
+}
+
+
+
+
